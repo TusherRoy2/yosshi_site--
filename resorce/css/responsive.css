@@ -7,7 +7,7 @@
 
 @media (max-width: 780px) {
     header {
-        margin-bottom: 33rem;
+        margin-bottom: 28rem;
     }
     header nav .logo img{
         width: 45vw;
@@ -22,7 +22,7 @@
         margin: auto;
     }
     .social {
-        padding: 1rem 0;
+        padding: 2rem 0;
     }
     .social .link{
         width: 8.2vw;
