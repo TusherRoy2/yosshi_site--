@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap);
+
+/* CODE START */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-y:auto;
+    overflow-x:hidden;
+    scroll-behavior:smooth;
+    background: #000;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* MAIN CODE START */
+
+.app{
+    background-image: url(../images/Firefly20240314154518.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    overflow: scroll;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30rem;
+}
+header nav{
+    padding: 5rem 2rem;
+    position: relative;
+}
+header nav .logo{
+    width: 100%;
+    margin: auto;
+}
+header nav .logo img{
+    width: 30vw;
+    margin: auto;
+}
+header nav .mute_btn {
+    width: 100%;
+    position: absolute;
+    top: 5.5rem;
+    right: 5rem;
+}
+header nav .mute_btn img{
+    width: 4vw;
+}
+header nav .mute_btn audio{
+    /* position: absolute;
+    opacity: 0;
+    z-index: -1; */
+}
+header nav .mute_btn{
+    width: 10%;
+    cursor: pointer;
+}
+
+.buy{}
+.buy a{}
+.buy a img{
+    width: 30vw;
+    margin: auto;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 5rem 0;
+}
+.social .link{
+    width: 7vw;
+}
+.social .link1{}
+.social .link2{}
+.social .link3{}
+
+.contract{
+    text-align: center;
+    padding: 2rem 0;
+}
+.contract h3{
+    font-size: 2.2vw;
+    text-transform: uppercase;
+    font-family: "Walter Turncoat", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+.contract p{
+    font-size: 2vw;
+    text-transform: uppercase;
+    font-family: "Walter Turncoat", cursive;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+}
