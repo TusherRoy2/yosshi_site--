@@ -2,7 +2,7 @@ let audio = document.querySelector('#audio');
 let pause = document.querySelector('#pause');
 
 
-window.onclick = function audioPlay(){
+window.onscroll = function audioPlay(){
     audio.play();
 };
 
