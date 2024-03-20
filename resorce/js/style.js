@@ -2,7 +2,7 @@ let audio = document.querySelector('#audio');
 let pause = document.querySelector('#pause');
 
 
-window.onfocus = function audioPlay(){
+window.onclick = function audioPlay(){
     audio.play();
 };
 
